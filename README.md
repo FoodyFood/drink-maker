@@ -13,16 +13,16 @@ Beware the current draw will be high as all needed pumps will activate at the sa
 
 Currently the Arduino code will do the following.
 
-Will take the following input and pour drinks accordingly
-Takes a string, between 2 and 10 long, no escape character needed
-Will ignore anything after 10th, must be even number of bytes
-Bytes are ASCII from 0 -> 5 (drink selection) and 0 -> 9 (amount)
-String is: {drink, amount, drink, amount, drink...}
+Will take the following input and pour drinks accordingly:
+Takes a string, between 2 and 10 long, no escape character needed.
+Will ignore anything after 10th, must be even number of bytes.
+Bytes are ASCII from 0 -> 5 (drink selection) and 0 -> 9 (amount).
+String is: {drink, amount, drink, amount, drink...}.
 
-There should be a pressupre switch under the glass connected to D7
-Glass detected should result in this pin being high
+There should be a pressure switch under the glass connected to D7.
+Glass detected should result in this pin being high.
 When a glass is detected, D13 will go high, this can be used to
-light the glass in its holder or simply as verification
+light the glass in its holder or simply as verification.
 
 Will Serial print the following status.
 0 Ready (glass present, and was removed since last pour).
