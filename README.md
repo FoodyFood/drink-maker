@@ -22,10 +22,10 @@ light the glass in its holder or simply as verification
 Will Serial print the following status:
 0: Ready (glass present, and was removed since last pour)
 1: No glass
-2: Glass removed during pour          //can't happen, debug only, will serial print 1)
-3: Pour in progress                   //Only sent during pour, will not return 3
-4: Pour ok, pending glass removal     //Will self clear when removed
-5: Glass not removed since last pour  //Will self clear when removed
+2: Glass removed during pour          :can't happen, debug only, will serial print 1)
+3: Pour in progress                   :Only sent during pour, will not return 3
+4: Pour ok, pending glass removal     :Will self clear when removed
+5: Glass not removed since last pour  :Will self clear when removed
 =========================================================================================
 
 This is intended to use 1 to 5 peristalic pumps on D8 -> D12 to pump the drinks.
