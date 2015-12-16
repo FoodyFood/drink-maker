@@ -31,3 +31,4 @@ This is intended to use 1 to 5 peristalic pumps on D8 -> D12 to pump the drinks.
 The timer oneDrinkUnitOfTime can be configured to your taste, I will be setting it to 1/8th Unit of liquor so I can have between 0 and 2.25 units in the glass per drink. This is the time it takes you pump to move that amount of liquid (in ms).
 
 Beware the current draw will be high as all needed pumps will activate at the same time to keep drink pouring time as short as possible and to mix the best.
+
