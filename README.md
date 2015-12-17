@@ -1,9 +1,11 @@
 # DrinkMaker
 Arduino and ESP8266 drink dispensing and mixing machine
 
-I will be making the ESP code shortly as I have time.
+ESP8266 code is created and working to a degree, the web page will be made much better but is simply HTML code with a little jQuery to refresh the drink status in the browser (full, pouring, no glass..).
 
-The ESP will present a web page with drink selections or perhaps simply sliders to determine what mix you want, maybe even both..
+The ESP currently displays a basic webpage with two simple links to demonstrate that the clicks will send a drink specification to the Arduino over the serial connection when they are linked. The webpage also has a status indicator that will be made more 'friendly' than just a number in an upcoming revision. See below for number meanings.
+
+The ESP will eventually present a web page with drink selections or perhaps simply sliders to determine what mix you want, maybe even both..
 
 This is intended to use 1 to 5 peristalic pumps on D8 -> D12 to pump the drinks.
 
