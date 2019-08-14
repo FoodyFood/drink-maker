@@ -21,7 +21,7 @@
 
 //Wifi credentials
 const char* ssid = "ASUS";
-const char* password = "TIMETOGO";
+const char* password = "PASSWORD";
 
 //Globals
 WiFiServer server(80);                    //HTTP port 80
