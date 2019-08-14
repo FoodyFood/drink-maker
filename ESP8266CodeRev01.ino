@@ -1,5 +1,5 @@
 /*  ESP8266 code to mix drinks in parallel for cocktails from web page 
-    Copyright (C) 2015  Daniel O'Connor
+    Copyright (C) 2015  D O'Connor
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
